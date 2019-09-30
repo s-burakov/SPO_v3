@@ -6,3 +6,4 @@ git push -u
 git clone
 git checkout
 git branch
+git merge
