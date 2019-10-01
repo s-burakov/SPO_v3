@@ -1,9 +1,20 @@
-git init
-git remote
-git add
-git commit
+1. git init - проинициализировали папку для git
+2. git remote add origin 
+3. создали текстовый файл 
+4. git add - добавили файл в индекс для дальнейшего коммита
+5. git commit -m "first commit"  закоммитили текстовый файл
+6. git push -u  - отправили коммит на сервер
+7. git checkout develop  - создали новую ветку и перешли на нее
+8. git checkout develop2 - создали новую ветку от ветки develop и перешли на нее
+9. Добавили первую строку в файл, git add ., git commit -m "add file text line", git push -u
+10. git clone - клонировали репозиторий в отдельную папку
+11. git checkout develop3 - создали новую ветку и перешли на нее
+12. Добавили первую строку в файл, git add ., git commit -m "add second line ", git push -u origin/develop3
+13. git checkout develop -переключились на ветку develop
+14. git merge    , git commin, git push -u origin/develop
+15. git merge    , git commin -m "merge2", git push -u origin/develop
+16. Решили конфликт
+17. Закоммитили отдельный текстовый файл со списком всех комманд 
+git add .
+git commit -m "add xzxz"
 git push -u
-git clone
-git checkout
-git branch
-git merge
